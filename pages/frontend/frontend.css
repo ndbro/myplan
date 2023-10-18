@@ -1,0 +1,28 @@
+.front-card{
+  margin-top: 80px;
+  width: 28rem;
+}
+
+.front-card img{
+  margin-left: 60px;
+}
+
+.loginbtn{
+  margin-left: 75px;
+}
+
+
+@media (max-width: 767px) {
+.front-card{
+  margin-top: 80px;
+  width: 25rem;
+}
+
+.front-card img{
+  margin-left: 50px;
+}
+
+.loginbtn{
+  margin-left: 55px;
+}
+}

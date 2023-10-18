@@ -1,0 +1,28 @@
+.foundation-card{
+  margin-top: 80px;
+  width: 28rem;
+}
+
+.foundation-card img{
+  margin-left: 60px;
+}
+
+.loginbtn{
+  margin-left: 75px;
+}
+
+@media (max-width: 767px) {
+ .foundation-card{
+  margin-top: 80px;
+  width: 25rem;
+}
+
+.foundation-card img{
+  margin-left: 50px;
+}
+
+.loginbtn{
+  margin-left: 60px;
+}
+
+}

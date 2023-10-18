@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./backend.css">
+  <link rel="stylesheet" href="../../css/main.css">
+  <title>MyPlan Backend</title>
+</head>
+<body>
+
+<!-- NAVBAR -->
+  <nav class="navbar container">
+      <a href="../../index.html" class="navbar-brand"><img src="../../assets/logo.png" alt="logo"></a>
+      
+      <button class="toggle-button">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="../../index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="../about/about.html" class="nav-link">About</a></li>
+      </ul>
+    </nav>
+<!-- END -->
+ <div class="card backend-card text-bg-dark mb-3 container shadow">
+  <div class="card-header">Backend</div>
+  <div class="card-body">
+    <img src="../../assets/website.png" alt=".net">
+    <h5 class="card-title mt-4 text-info">Siz MyPlan backend kursida :</h5>
+    <p class="card-text">C#, MVC, Ado.net, Postgresql, Form, WFT va boshqalarni <mark style="background-color: yellowgreen;"> 5 oy + 1 oy</mark> amaliyot ja'mi 6 oyda istagan joyingizda turib online o'rganishingiz mumkin.</p>
+
+    <h5 class="card-title text-info mt-4">Darslar qanday o'tiladi ? : </h5>
+    <p class="card-text">Darslar 2 turga bo'linadi <mark style="background-color: yellowgreen;">Jamoaviy</mark> va <mark style="background-color: yellowgreen;">birga bir</mark> tarzda bo'lib o'tadi.</p>
+
+    <h5 class="card-title text-info mt-4">Jamoaviy darslar qanday bo'ladi ? : </h5>
+    <p class="card-text">Jamoaviy darslar jamoa bilan ya'ni sodda qilib aytganda<mark style="background-color: yellowgreen;">Guruhda</mark> maksimum 5 ta gacha odam ta'lim olishi mumkin bo'ladi. Bu sizga do'stlar ortirishda va bilim almashishda katta yordam beradi.</p>
+
+    <h5 class="card-title text-info mt-4">Birga bir darslar qanday bo'ladi ? : </h5>
+    <p class="card-text">Birga bir darslar o'qituvchi va o'quvchi o'rtasida bo'ladi ya'ni xech qanday jamoasiz ustozning diqqati <mark style="background-color: yellowgreen;">faqat sizga</mark> qaratilgan holda bo'ladi .</p>
+
+    <h5 class="card-title text-info mt-4">Darslar necha soat bo'ladi ? : </h5>
+    <p class="card-text">Darslar 2 soatdan 3 soatgacha bo'ladi.</p>
+    <p class="mt-5 text-center">Kursga yozilish uchun "kursga yozilish" tugmasini bosing.</p>
+    <a href="https://t.me/MyPlanBackendbot" class="btn btn-success loginbtn">Kursga yozilish</a>  
+  </div>
+</div>
+<!-- Footer -->
+
+  <footer class="footer text-center">
+  <div class="footer-wrapper container  gap-5">  
+      <div class="ms-5">
+        <p class="text-center">Instagram</p>
+        <a href="https://www.instagram.com/myplan.uz/">MyPlan.uz</a>
+      </div>
+    <div class="ms-5">
+        <p class="text-center">Telegram kanal</p>
+        <a href="https://t.me/myplanuz">MyPlanuz</a>
+    </div>
+    <div class="ms-5">
+      <p class="text-center">Telegram bot</p>
+      <a href="https://t.me/MyPlanFoundationbot">FoundationBot</a>
+      <br/>
+      <a href="https://t.me/MyPlanFrontendbot">FrontendBot</a>
+      <br/>
+      <a href="https://t.me/MyPlanBackendbot">BackendBot</a>
+    </div>
+  </div>
+  </footer>
+
+<!-- END -->
+  
+</body>
+<script>
+      const toggleButton = document.querySelector('.toggle-button');
+      const navbarNav = document.querySelector('.navbar-nav');
+      
+      toggleButton.addEventListener('click', () => {
+        navbarNav.classList.toggle('show');
+      });
+    </script>
+</html>

@@ -1,0 +1,25 @@
+.backend-card{
+  margin-top: 80px;
+  width: 28rem;
+}
+.backend-card img{
+  margin-left: 60px;
+}
+
+.loginbtn{
+  margin-left: 75px;
+}
+
+@media (max-width: 767px) {
+ .backend-card{
+  margin-top: 80px;
+  width: 25rem;
+}
+.backend-card img{
+  margin-left: 55px;
+}
+.loginbtn{
+  margin-left: 50px;
+}
+
+}
